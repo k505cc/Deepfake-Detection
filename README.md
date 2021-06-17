@@ -17,7 +17,7 @@ $ git clone https://github.com/Fake-Is-Now-Detected/deepfake_detection.git
 
 ## 2. Dataset (데이터셋)
 종류|사진/영상|갯수|size|데이터|unseen
----|-------|---|----|-----|------
+---|:-------:|---|----|-----|------
 Face Forensics++|사진||||
 Celeb-DF|영상||||
 Deepfake Detection Challenge(DFDC)|영상||||
