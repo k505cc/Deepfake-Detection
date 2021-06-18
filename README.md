@@ -20,6 +20,7 @@ $ git clone https://github.com/Fake-Is-Now-Detected/deepfake_detection.git
 * scikit-learn
 * Matplotlib
 * Numpy
+* Gradio
 
 ## 2. Dataset (데이터셋)
 종류|사진/영상|갯수|size|unseen|링크
@@ -33,12 +34,13 @@ real data|영상|-|-|O|-
 
 Download Link for the dataset
 
-## 3. 모델 설명
+## 3. Model Explanation (모델 설명)
 ### XceptionNet
 ![Xcept](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcURENc%2FbtqGdQ4oEj2%2F7kbxgeNBccVQSZMbYZn2Kk%2Fimg.png)
-* 모델로 정의된 것이 아니라 특징을 추출하는데 쓰이는 backbone으로 small deep learning 조건 중 하나인 depthwise separable 방식을 네트워크에 적용한 것이다.
-* depthwise separable 방식을 통해 연산량을 8배 정도 줄일 수 있다.
-* Real과 Fake를 구분하는 데에 좋은 성능을 보이는 모델로 알려져 있다.
+* Currently ensembles of EfficientNet & XceptionNet are listed as the latest models developed for deepfake face detection sector. We picked to use XceptionNet as our backbone model to extract features. 
+
+By using XceptionNet’s depth wise separable convolution we reduced the computation capability by 8 times.  We adopted XceptionNet since it has accelerating performance in distinguishing between real and fake images. 
+
 
 ## 4. Preprocessing (전처리 기술)
 ### MTCNN
