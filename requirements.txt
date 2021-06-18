@@ -1,4 +1,5 @@
-*tensorflow>=1.15,<2.0
+*pip 
+*tensorflow==2.3.0
 *keras
 *scikit-learn
 *matplotlib
