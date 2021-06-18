@@ -9,6 +9,11 @@ By detecting modified and fake images online, we are pursuing to seek below,
 * Prevent fake videos being uploaded our most public video content platform – Youtube
 * Prevent dissemination of false information with unguaranteed images/ videos     
 
+
+![image (1)](https://user-images.githubusercontent.com/76925087/122524356-ffa79300-d052-11eb-929a-0c8efc88661b.png)
+![image](https://user-images.githubusercontent.com/76925087/122524368-02a28380-d053-11eb-9d07-c4e1acd6ef5e.png)
+
+
 You can clone this repository into your favorite directory:
 ```
 $ git clone https://github.com/Fake-Is-Now-Detected/deepfake_detection.git
