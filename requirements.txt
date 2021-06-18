@@ -1,4 +1,4 @@
-!/usr/local/bin/python -m pip install --upgrade pip
+*/usr/local/bin/python -m pip install --upgrade pip
 *tensorflow == 2.3.0
 *keras
 *scikit-learn
