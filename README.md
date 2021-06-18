@@ -1,9 +1,9 @@
-# Deepfake detection
+#FIND (Fake Is Now Detected) - Deepfake Image Detection 
 
-## 0. 프로젝트 소개
 There has been recent rise in sales and abusive usages of deepfake videos, fake news, political and social issues along with the deepfake videos.    Phishing crimes using deepfake are assumable.     
 
-By detecting modified and fake images online, we are pursuing to seek below,
+By detecting modified and fake images online, we are pursuing to seek below, 
+
 * Building safety guidelines on reckless false video production with AI technology
 * Prevent fake videos being uploaded our most public video content platform – Youtube
 * Prevent dissemination of false information with unguaranteed images/ videos     
@@ -55,8 +55,12 @@ By using XceptionNet’s depth wise separable convolution we reduced the computa
 * Model Ensemble of 2 Best models of XceptionNet
 
 
-## 5. Results (결과)
-정확도, confusion matrix
+## 5. Final Accuracy & Recall 
+
+* Accuracy : 0.783
+* Recall : 0.82
+* Confusion Matrix
+![그림3](https://user-images.githubusercontent.com/76925087/122522877-63c95780-d051-11eb-83a9-5b65fa700f09.png)
 
 
 ## Reference
