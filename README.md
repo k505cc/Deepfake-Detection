@@ -1,4 +1,5 @@
-# FIND (Fake Is Now Detected) - Deepfake Image Detection 
+# FIND (Fake Is Now Detected)
+# Deepfake Image Detection 
 
 There has been recent rise in sales and abusive usages of deepfake videos, fake news, political and social issues along with the deepfake videos.    Phishing crimes using deepfake are assumable.     
 
