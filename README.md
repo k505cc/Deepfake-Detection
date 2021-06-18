@@ -37,18 +37,27 @@ Download Link for the dataset
 ## 3. Model Explanation (모델 설명)
 ### XceptionNet
 ![Xcept](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcURENc%2FbtqGdQ4oEj2%2F7kbxgeNBccVQSZMbYZn2Kk%2Fimg.png)
+
+![SOTA Deepfake detection](https://user-images.githubusercontent.com/76925087/122522090-873fd280-d050-11eb-9f81-1fde7a3b1714.png)
+
 * Currently ensembles of EfficientNet & XceptionNet are listed as the latest models developed for deepfake face detection sector. We picked to use XceptionNet as our backbone model to extract features. 
 
 By using XceptionNet’s depth wise separable convolution we reduced the computation capability by 8 times.  We adopted XceptionNet since it has accelerating performance in distinguishing between real and fake images. 
 
 
-## 4. Preprocessing (전처리 기술)
-### MTCNN
+## 4. Data Preprocessing & Model Ensemble (적용된 전처리와 모델 적용)
 
-### data augmentation
+![그림2](https://user-images.githubusercontent.com/76925087/122522214-aa6a8200-d050-11eb-8145-3e97bdf00010.png)
+
+* Face Cropping & Masking
+* Image Compression, Saturation, Flipping 
+* Noise Data Removal & Loss Function Conversion
+* Model Ensemble of 2 Best models of XceptionNet
 
 
 ## 5. Results (결과)
 정확도, confusion matrix
+
+
 ## Reference
 
