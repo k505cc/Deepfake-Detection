@@ -23,12 +23,13 @@ $ git clone https://github.com/Fake-Is-Now-Detected/deepfake_detection.git
 
 ## 2. Dataset (데이터셋)
 종류|사진/영상|갯수|size|unseen|링크
----|:-------:|---:|:----:|------|----
-Face Forensics++|영상|5000|8.42GB||[LINK](https://docs.google.com/forms/d/e/1FAIpQLSdRRR3L5zAv6tQ_CKxmK4W96tAab_pfBu2EKAgQbeDVhmXagg/viewform)
-Celeb-DF|영상|6229|10GB||[LINK](https://docs.google.com/forms/d/e/1FAIpQLScoXint8ndZXyJi2Rcy4MvDHkkZLyBFKN43lTeyiG88wrG0rA/viewform)
-Deepfake Detection Challenge(DFDC)|영상|100,000|90GB||[LINK](https://ai.facebook.com/datasets/dfdc)
-Dacon 딥페이크 탐지 경진대회|영상|1300,000|127.6GB||[LINK](https://dacon.io/competitions/official/235655/data)
-UADFV|영상|98|||
+---|:-------:|---:|:----:|:------:|:----:
+Face Forensics++|영상|5000|8.42GB|X|[LINK](https://docs.google.com/forms/d/e/1FAIpQLSdRRR3L5zAv6tQ_CKxmK4W96tAab_pfBu2EKAgQbeDVhmXagg/viewform)
+Celeb-DF|영상|6229|10GB|X|[LINK](https://docs.google.com/forms/d/e/1FAIpQLScoXint8ndZXyJi2Rcy4MvDHkkZLyBFKN43lTeyiG88wrG0rA/viewform)
+Deepfake Detection Challenge(DFDC)|영상|100,000|90GB|X|[LINK](https://ai.facebook.com/datasets/dfdc)
+Dacon 딥페이크 탐지 경진대회|영상|1300,000|127.6GB|X|[LINK](https://dacon.io/competitions/official/235655/data)
+UADFV|영상|98|-|X|-
+real data|영상|-|-|O|-
 
 Download Link for the dataset
 
