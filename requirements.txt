@@ -1,6 +1,8 @@
-*Tensorflow 2.4.1
-*Keras
+*tensorflow >=1.15, 2.3.0
+*keras
 *scikit-learn
-*Matplotlib
-*Numpy
-*Gradio
+*matplotlib
+*numpy
+*opencv-python
+*pillow
+*gradio
