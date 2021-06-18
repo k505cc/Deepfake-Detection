@@ -1,4 +1,3 @@
-*tensorflow>=21.*
 *keras
 *scikit-learn
 *matplotlib
