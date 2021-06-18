@@ -1,7 +1,7 @@
-*keras
-*scikit-learn
-*matplotlib
-*numpy
-*opencv-python
-*pillow
-*gradio
+keras
+scikit-learn
+matplotlib
+numpy
+opencv-python
+pillow
+gradio
