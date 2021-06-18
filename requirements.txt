@@ -1,0 +1,7 @@
+*Ubuntu 18.04
+*Tensorflow 2.4.1
+*Keras
+*scikit-learn
+*Matplotlib
+*Numpy
+*Gradio
